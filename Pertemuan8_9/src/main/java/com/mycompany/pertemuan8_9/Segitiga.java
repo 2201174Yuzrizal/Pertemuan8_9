@@ -9,7 +9,7 @@ public class Segitiga extends GeometricObject {
     private double side2;
     private double side3;
 
-    
+     
     public Segitiga() {
         this(1.0, 1.0, 1.0);
     }

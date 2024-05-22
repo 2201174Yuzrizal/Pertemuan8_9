@@ -27,11 +27,11 @@ public class UjiSegitiga {
         segitiga.setWarna(warna);
         segitiga.setDiisi(diisi);
 
-       
+        System.out.println(segitiga.toString());
         System.out.println("Luas segitiga: " + segitiga.getArea());
         System.out.println("Keliling segitiga: " + segitiga.getPerimeter());
         System.out.println("Warna segitiga: " + segitiga.getWarna());
         System.out.println("Apakah segitiga terisi? " + segitiga.isDiisi());
-        System.out.println(segitiga.toString());
+        
     }
 }
